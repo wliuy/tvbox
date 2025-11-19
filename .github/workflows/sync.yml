@@ -32,7 +32,7 @@ jobs:
           upstream_sync_branch: master
           
           # 您的分支 (您的 fork 是 main)
-          target_sync_branch: main
+          target_sync_branch: master
           
           # 必须使用 PAT 才能触发部署 + 保护文件不丢失
           target_repo_token: ${{ secrets.PAT }}
